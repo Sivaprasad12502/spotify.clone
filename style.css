@@ -258,3 +258,91 @@ body{
     width: 16px;
     height: 16px;
 }
+.horizontal-line{
+    border-color: rgba(255, 255, 255, 0.1);
+    margin-block-start: 0px;
+    border: 0px;
+    margin-block: 24px;
+    border-block-start: 1px solid #292929;
+}
+.footer-style-bottom-links{
+    display: flex;
+    flex-flow: column wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 16px;
+}
+.bottom-link-container{
+    display: flex;
+    flex-flow: wrap;
+}
+.bottom-link-container-sc{
+    display: flex;
+    flex-wrap: wrap;
+}
+.link-container-element{
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+.limmk{
+    
+    text-decoration:  none;
+    border: none;
+    padding: 0;
+}
+.type-element-small{
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgb(179, 179, 179);
+    font-family: "f2";
+}
+.country-copywright{
+    flex: 0 0 auto;
+    display: flex;
+    flex-flow: row;
+    align-items: end;
+    color: rgb(179, 179, 179);
+}
+.country-copywright-sc{
+    padding-right: 16px;
+}
+.ddIxQM{
+    font-size: 0.875rem;
+    font-weight: 400;
+    font-family: "f2";
+    margin: 0;
+
+}
+.footer-language-selector{
+    padding-top: 16px;
+}
+.language-button{
+    background-color: transparent ;
+    border: 1px solid #818181;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-block-end: 3px;
+    padding-block-start: 3px;
+    padding-inline-end: 15px;
+    padding-inline-start: 32px;
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-family: "f2";
+    font-weight: 700;
+    font-size: 0.8125rem;
+    border-radius: 9999px;
+    min-block-size: 32px;
+
+}
+.icon-wrapper{
+    display: flex;
+    position: absolute;
+    left: 12px;
+}
+.dYnaPI{
+    fill: rgb(255, 255, 255);
+    width: 16px;
+    height: 16px;
+}
